@@ -17,7 +17,7 @@ contract Score {
         _;
     }
 
-    function getScore(address _address) public view returns (uint256) {
+    function getScoreFor(address _address) public view returns (uint256) {
         return scores[_address];
     }
 
